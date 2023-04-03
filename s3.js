@@ -24,7 +24,7 @@ function uploadFile(file) {
     const uploadParams = {
         Bucket: bucketName,
         Body: fileStream,
-        Key: "file_"+file.filename
+        Key: "file/"+file.filename
     }
 
     return s3.upload(uploadParams).promise()
