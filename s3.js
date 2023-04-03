@@ -20,10 +20,11 @@ function uploadFile(file) {
     // Readstream
     const fileStream = fs.createReadStream(file.path)
 
+    console.log("Original filename: ", file.filename)
     const uploadParams = {
         Bucket: bucketName,
         Body: fileStream,
-        Key: "filex"+file.filename
+        Key: file.filename
     }
 
     return s3.upload(uploadParams).promise()
