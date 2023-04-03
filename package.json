@@ -1,0 +1,31 @@
+{
+  "name": "pathos-cloud-infra",
+  "version": "1.0.0",
+  "description": "PATHOS CLOUD INFRASTRUCTURE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/rockstarallegue/pathos-cloud-infra.git"
+  },
+  "keywords": [
+    "pathos"
+  ],
+  "author": "rockstarallegue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockstarallegue/pathos-cloud-infra/issues"
+  },
+  "homepage": "https://github.com/rockstarallegue/pathos-cloud-infra#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1348.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
